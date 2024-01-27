@@ -60,3 +60,6 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 });
+
+const currentDate = new Date();
+document.getElementById("copyrightYear").innerText = currentDate.getFullYear();
